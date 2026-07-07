@@ -1,0 +1,16 @@
+.dark{
+
+background:white;
+color:black;
+
+}
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark .card,
+.dark .sidebar,
+.dark .chart-box{
+    background:#1e1e1e;
+}

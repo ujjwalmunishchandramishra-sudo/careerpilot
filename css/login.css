@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+    );
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.form-box{
+    width:520px;
+    max-width:95%;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    padding:40px;
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    color:white;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+p{
+    color:#bdbdbd;
+}
+
+form{
+    margin-top:30px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:#334155;
+    color:white;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#38bdf8;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#0ea5e9;
+}
+
+a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+.password-box{
+    position:relative;
+}
+
+#togglePassword{
+    position:absolute;
+    right:15px;
+    top:15px;
+    cursor:pointer;
+}
+/* ==========================
+   ROLE SELECTION
+========================== */
+
+.role-title{
+    display:block;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.role-container{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.role-card{
+    flex:1;
+    cursor:pointer;
+}
+
+.role-card input{
+    display:none;
+}
+
+.role-box{
+    background:#334155;
+    border:2px solid transparent;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.role-box .icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.role-box h3{
+    color:#fff;
+    margin:8px 0;
+}
+
+.role-box p{
+    color:#cbd5e1;
+    font-size:13px;
+    margin:0;
+}
+
+.role-card:hover .role-box{
+    transform:translateY(-5px);
+    border-color:#38bdf8;
+}
+
+.role-card input:checked + .role-box{
+    border:2px solid #38bdf8;
+    background:#1d4ed8;
+    box-shadow:0 0 20px rgba(56,189,248,.45);
+}
+

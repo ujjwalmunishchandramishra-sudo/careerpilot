@@ -1,0 +1,23 @@
+# Uploads
+uploads/
+
+# XAMPP logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Environment files
+.env
+
+# Database exports (optional)
+*.sql

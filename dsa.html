@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>DSA Tracker</title>
+
+<link rel="stylesheet"
+href="css/dsa.css">
+
+</head>
+
+<body>
+
+<h1>DSA Progress Tracker</h1>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Arrays</h2>
+
+<p id="arraysCount">0 / 50</p>
+
+<div class="progress">
+<div id="arraysBar"></div>
+</div>
+
+<button onclick="updateCount('arrays',1)">
++
+</button>
+
+<button onclick="updateCount('arrays',-1)">
+-
+</button>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Linked List</h2>
+
+<p id="linkedCount">0 / 30</p>
+
+<div class="progress">
+<div id="linkedBar"></div>
+</div>
+
+<button onclick="updateCount('linked',1)">
++
+</button>
+
+<button onclick="updateCount('linked',-1)">
+-
+</button>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Trees</h2>
+
+<p id="treesCount">0 / 40</p>
+
+<div class="progress">
+<div id="treesBar"></div>
+</div>
+
+<button onclick="updateCount('trees',1)">
++
+</button>
+
+<button onclick="updateCount('trees',-1)">
+-
+</button>
+
+</div>
+
+</div>
+
+<script src="js/dsa.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Resume Analyzer</title>
+
+<link rel="stylesheet"
+href="css/resume.css">
+
+</head>
+
+<body>
+
+<h1>Resume Analyzer</h1>
+
+<textarea
+id="resumeText"
+placeholder="Paste your resume here">
+</textarea>
+
+<button onclick="analyzeResume()">
+
+Analyze Resume
+
+</button>
+
+
+<div class="result">
+
+<h2>ATS Score</h2>
+
+<div class="progress">
+
+<div id="progressBar">
+
+0%
+
+</div>
+
+</div>
+
+
+<h2>Skills Found</h2>
+
+<ul id="skillsList">
+
+</ul>
+
+<h2>Suggestions</h2>
+
+<ul id="suggestions">
+
+</ul>
+
+</div>
+
+<script src="js/resume.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+
+background:#0f172a;
+color:white;
+padding:50px;
+font-family:Segoe UI;
+
+}
+
+.box{
+
+display:flex;
+flex-direction:column;
+gap:20px;
+
+}
+
+button{
+
+padding:20px;
+background:#1e293b;
+border:none;
+color:white;
+border-radius:15px;
+cursor:pointer;
+
+}
